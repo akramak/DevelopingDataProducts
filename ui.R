@@ -52,7 +52,7 @@ shinyUI(fluidPage(
       tags$h2("Required Sample size:"),
       verbatimTextOutput("sampize",placeholder = TRUE),
       br(),
-      print("Signifcance Level = "),
+      tags$h4("Signifcance Level = "),
       textOutput("sig")
     )
   ))
